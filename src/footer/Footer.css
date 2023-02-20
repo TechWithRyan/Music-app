@@ -4,6 +4,10 @@
 
 .footer {
     background-color: #2d2d32;
+  
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .sb__footer {
@@ -111,13 +115,16 @@ hr {
         font-size: 14px;
         line-height: 20px;
     }
+
     .sb__footer-below {
         flex-direction: column;
         justify-content: left;
     }
+
     .sb__footer-below-links {
         flex-direction: column;
     }
+
     .sb__footer-below-links p {
         margin-left: 0rem;
         margin-top: 1rem;

@@ -1,0 +1,40 @@
+.hero {
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    padding: 20px;
+  }
+  .hero h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left {
+    height: 30rem;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.right {
+    height: 30rem;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    contain: content;
+}
+
+.right p {
+    align-items: center;
+}
