@@ -6,8 +6,10 @@ import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Navbar from './components/Navbar';
-import Body from './body/body';
+import Body from './body/Body';
 import Footer from './footer/Footer';
+import CookieBanner from 'react-cookie-banner';
+
 
 const App = () => {
   return (
@@ -23,6 +25,7 @@ const App = () => {
         </Routes>
       </Router>
       <Body />
+     <CookieBanner disableStyle={true} />
       <Footer />
 
     </>
