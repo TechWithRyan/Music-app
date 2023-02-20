@@ -7,7 +7,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='container'>
             <div className="footer">
                 <div className="sb__footer section__padding">
                     <div className="sb__footer-links">

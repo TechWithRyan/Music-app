@@ -17,9 +17,9 @@ import Login from './components/Login';
 const App = () => {
   const [token, setToken] = useState();
 
-  if(!token) {
+  /* if(!token) {
     return <Login setToken={setToken} />
-  }
+  } */
   return (
     <>
     <div className="wrapper">
@@ -37,8 +37,8 @@ const App = () => {
         </Routes>
       </Router>
       <CookieBanner disableStyle={true} />
-      <Login />
-      <Body />
+     {/*  <Login /> */}
+    {/*   <Body /> */}
       <Footer />
 
     </div>
