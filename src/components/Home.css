@@ -17,6 +17,11 @@
     font-size: 30px;
 }
 
+a:hover {
+    color: rgb(46, 97, 236);
+    transition: 0.5s ease-in-out;
+}
+
 .typical {
     display: flex;
     align-items: center;

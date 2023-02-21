@@ -33,9 +33,9 @@ li {
   width: 75%;
 }
 
-.nav-links:hover {
-  color: rgb(14, 85, 199);
-  transition: 1s ease-in-out;
+li:hover {
+  color: rgb(16, 112, 238);
+  transition: 0.5s ease-in-out;
 }
 
 .nav-links li {
