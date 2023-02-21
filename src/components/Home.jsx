@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ryan from "../assets/ryan.jpg"
 import "./Home.css"
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
         </section>
 
         <section className='right'>
-          <p>Greetings! My name is Ryan.</p><p>I'm an aspiring web developer. Feel free to read about me <a href="/about">here</a></p>
+          <p>Greetings! My name is Ryan.</p><p>I'm an aspiring web developer. Feel free to read about me <Link to="/about"><li>here</li></Link></p>
          
         </section>
 
