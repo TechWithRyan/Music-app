@@ -2,12 +2,17 @@
     padding: 4rem 4rem;
 }
 
+.container {
+    position: relative;
+    min-height: 100vh;
+}
+
 .footer {
     background-color: #2d2d32;
-  
     left: 0;
     bottom: 0;
     right: 0;
+    position: absolute; bottom: 0; width: 100%
 }
 
 .sb__footer {
