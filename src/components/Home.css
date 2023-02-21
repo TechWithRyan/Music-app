@@ -1,18 +1,27 @@
 .hero {
-    text-align: center;
-    align-items: center;
     margin-top: 0;
     padding: 20px;
-  }
-  .hero h1 {
+    height: 5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hero h1 {
     text-align: center;
-    font-size: 40px;
-  }
+    font-size: 30px;
+}
 
 .home-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+.home-container a {
+    color: blue;
 }
 
 .left {
@@ -26,15 +35,34 @@
 }
 
 .right {
-    height: 30rem;
+    height: 10rem;
     width: 50%;
-    align-items: center;
+
     display: flex;
     flex-direction: column;
-    font-size: 30px;
-    contain: content;
+    font-size: 20px;
+
 }
 
 .right p {
     align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .home-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    img {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+    }
+
+    .left {
+        height: 15rem;
+        margin: 20px;
+        padding: 20px;
+    }
 }

@@ -1,0 +1,26 @@
+.info-text {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.info-text p {
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.about-header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 5rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .info-text {
+        display: flex;
+        flex-direction: column;
+    }
+}
