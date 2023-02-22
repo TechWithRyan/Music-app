@@ -6,13 +6,11 @@ import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Navbar from './components/Navbar';
-import Body from './body/Body';
 import Footer from './footer/Footer';
 import CookieBanner from 'react-cookie-banner';
 import Dashboard from './components/Dashboard';
 import Preferences from './components/Preferences';
 import "./App.css";
-import Login from './components/Login';
 
 const App = () => {
   const [token, setToken] = useState();

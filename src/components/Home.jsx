@@ -15,7 +15,7 @@ const Home = () => {
         </section>
 
         <section className='right'>
-          <p>Greetings! My name is Ryan.</p><p>I'm an aspiring web developer. Feel free to read about me <Link to="/about">here</Link></p>
+          <p>Hi! My name is Ryan.</p><p>I'm an aspiring web developer. Feel free to read about me <Link to="/about">here</Link></p>
         </section>
 
       </section>

@@ -18,7 +18,14 @@
     align-items: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
+    .info-text {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
     .info-text {
         display: flex;
         flex-direction: column;
