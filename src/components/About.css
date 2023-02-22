@@ -1,13 +1,27 @@
 .info-text {
     display: flex;
-    text-align: center;
     padding: 20px;
     font-size: 20px;
+    flex-direction: column;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.interests {
+   
+}
+
+.about-box {
+   
 }
 
 .info-text p {
     justify-content: space-evenly;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-header {
@@ -20,14 +34,13 @@
 
 @media screen and (max-width: 400px) {
     .info-text {
-        display: flex;
-        flex-direction: column;
+        width: 90vw;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .info-text {
-        display: flex;
-        flex-direction: column;
+        
+        width: 90vw;
     }
 }
