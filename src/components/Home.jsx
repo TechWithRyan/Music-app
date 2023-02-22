@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import ryan from "../assets/ryan.jpg"
-import "./Home.css"
+import { Link } from 'react-router-dom';
+import ryan from "../assets/ryan.jpg";
+import "./Home.css";
 const Home = () => {
   return (
     <>
