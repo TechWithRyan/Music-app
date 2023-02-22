@@ -1,10 +1,11 @@
 .hero {
     margin-top: 0;
     padding: 20px;
-    height: 5rem;
+    height: 40rem;
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .home-info {
@@ -31,7 +32,7 @@ a:hover {
     justify-content: center;
 }
 
-.left {
+/* .left {
     height: 25rem;
     width: 25vw;
     display: flex;
@@ -48,10 +49,10 @@ a:hover {
     font-size: 20px;
     align-items: center;
 }
-
-.home-container img {
+ */
+/* .home-container img {
     border-radius: 50%;
-}
+} */
 
 
 

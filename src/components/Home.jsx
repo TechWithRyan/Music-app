@@ -6,17 +6,18 @@ const Home = () => {
   return (
     <>
       <section className='hero'>
-        <h1>Welcome</h1>
+        <h1>Hi, I'm Ryan</h1>
+        <p>I'm an aspiring web developer. Feel free to read about me <Link to="/about">here</Link></p>
       </section>
 
       <section className='home-container'>
         <section className='left'>
-          <img src={ryan} alt="" />
+          {/* <img src={ryan} alt="" /> */}
         </section>
 
-        <section className='right'>
-          <p>Hi! My name is Ryan.</p><p>I'm an aspiring web developer. Feel free to read about me <Link to="/about">here</Link></p>
-        </section>
+        {/* <section className='right'>
+          <p>I'm an aspiring web developer. Feel free to read about me <Link to="/about">here</Link></p>
+        </section> */}
 
       </section>
       {/* <section className='home-info'>
