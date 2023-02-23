@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import ryan from "../assets/ryan.jpg";
-import "./Home.css";
+import bg from "../assets/bg.jpg";
+import "./Home.css"
 const Home = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const Home = () => {
 
       <section className='home-container'>
         <section className='left'>
-          {/* <img src={ryan} alt="" /> */}
+          {/* <img src={bg} alt="" /> */}
         </section>
 
         {/* <section className='right'>
