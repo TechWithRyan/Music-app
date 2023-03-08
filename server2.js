@@ -2,7 +2,7 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 require('dotenv').config()
 
-const port = 8080;
+const port = 8085;
 
 const express = require('express')
 const app = express()
@@ -45,4 +45,4 @@ function authenticateToken(req, res, next) {
     })
 }
 
-app.listen(8080, () => console.log(`API is running on ${port}`));
+app.listen(8085, () => console.log(`API is running on ${port}`));

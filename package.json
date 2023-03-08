@@ -4,11 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "devStart": "nodemon server.js",
+    "devStart2": "nodemon server2.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "bulma": "^0.9.4",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.20",
     "react": "^18.2.0",
     "react-cookie-banner": "^4.1.0",
     "react-dom": "^18.2.0",
