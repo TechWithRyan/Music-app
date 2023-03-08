@@ -12,19 +12,30 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
   box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
 }
 
-.logo {
-  font-size: 30px;
+.navbar h3 {
+  align-items: center;
+  display: flex;
+}
+
+.navbar-header {
+  font-size: 2rem;
+}
+
+.navbar img{
+  height: 5rem;
+  margin: 1rem;
 }
 
 .nav-links {
   display: flex;
   justify-content: flex-end;
   width: 75%;
+  align-items: center;
 }
+
 
 li:hover {
   color: rgb(16, 112, 238);
@@ -53,11 +64,16 @@ button {
 
 @media (max-width: 768px) {
 
-  .logo {
+  .navbar-header {
     display: flex;
     position: absolute;
-    top: 15px;
-    left: 35px;
+    top: 1rem;
+    left: 3rem;
+  }
+
+  .navbar img{
+    height: 7rem;
+    width: 7rem;
   }
 
   .nav-links {
