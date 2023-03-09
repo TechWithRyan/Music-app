@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -19,25 +19,22 @@ const App = () => {
   } */
   return (
     <>
-    <div className="wrapper">
+          <div className="container">
+        <Router>
 
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/preferences" element={<Preferences />} />
-        </Routes>
-      </Router>
-      <CookieBanner disableStyle={true} />
-     {/*  <Login /> */}
-    {/*   <Body /> */}
-      <Footer />
-
-    </div>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/preferences" element={<Preferences />} />
+          </Routes>
+        </Router>
+        <CookieBanner disableStyle={true} />
+        <Footer />
+          </div>
     </>
   )
 }

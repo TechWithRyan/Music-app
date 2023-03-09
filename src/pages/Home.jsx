@@ -8,7 +8,7 @@ const Home = () => {
       <section className='hero'>
         <div className='hero-body'>
           <h1 className='title is-4'>
-            Hej! Välkommen!
+            Välkommen!
           </h1>
           <p>Jag heter Ryan. Läs gärna mer om mig <Link to="/about">här</Link></p>
         </div>
@@ -20,8 +20,9 @@ const Home = () => {
         </section>
 
         <section className='right'>
-          <p>Låt mig hjälpa till med er hemsida.</p>
-          <p>Jag kan erbjuda enklare lösningar till ett bra marknadspris.</p>
+          <p>Låt mig hjälpa till med er hemsida.
+            Jag kan erbjuda enklare lösningar till ett bra marknadspris.
+          </p>
         </section>
       </section>
       <section className='container'>
