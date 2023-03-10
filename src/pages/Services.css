@@ -40,6 +40,7 @@
     margin: 0 auto;
     padding: 2rem;
     height: 100vh;
+
 }
 
 .title-header {
@@ -52,4 +53,12 @@
 .container{
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 650px) {
+    .packs {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+    }
 }
