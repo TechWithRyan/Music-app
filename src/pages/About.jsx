@@ -12,7 +12,7 @@ import WP from "../assets/WP.png"
 const About = () => {
   return (
     <>
-      <div className='about-img'>
+      <div className='box about-img'>
 
         <img src={ryan} alt="" />
 

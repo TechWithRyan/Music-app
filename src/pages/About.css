@@ -32,8 +32,8 @@
 }
 
 .about-img {
-    height: 20rem;
-    width: 20rem;
+    height: 30%;
+    width: 30%;
     margin: 2rem auto;
     display: flex;
     box-shadow: steelblue 1rem 1rem;
