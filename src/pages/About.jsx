@@ -12,19 +12,18 @@ import WP from "../assets/WP.png"
 const About = () => {
   return (
     <>
-        <div>
-        <figure className="image is-128x128">
-          <img src={ryan} alt="" />
-          
-        </figure>
-        </div>
+      <div className='about-img'>
+
+        <img src={ryan} alt="" />
+
+      </div>
       <container className='image-box'>
       </container>
       <section className='info-text'><p><h1 className='title is-4'>Vägen hit</h1>
         Jag började min resa inom webbutveckling på gymnasiet 2007-2010. Efter gymnasiet har jag haft jobb i olika branscher. Event försäljning, Ställningsbyggare, Logistik, Vårdgivare & inom kundtjänst.  År 2020-2022 så har jag läst webbutveckling på Medieinstitutet i Göteborg. Nu söker jag nya möjligheter och ser optimistiskt på kommande projekt.</p>
         <br /><hr />
-       
-        
+
+
       </section>
       <div className="about-box">
         <section className='info-text'><p><h1 className='title is-4'>Styrkor</h1>Flytande i Svenska & Engelska. God social kompetens & gillar att socialisera. Jag är seriös med mitt fokus men har såklart även ett gott humör.</p>

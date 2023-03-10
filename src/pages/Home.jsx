@@ -29,13 +29,13 @@ const Home = () => {
         </div>
 
         
-      </section>
-      <section className='box'>
+      <section>
         <div className='info'>
         <h1 className='title is-4'>Modern teknik</h1>
         
         <p>Jag använder mig huvudsakligen av React.JS för att göra hemsidor. Vilket är bland de mest populära ramverken.
           Vill ni hellre ha en sida i wordpress går det att ordna det med.</p></div>
+      </section>
       </section>
 
     </>
