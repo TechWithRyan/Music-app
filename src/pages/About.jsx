@@ -12,6 +12,9 @@ import WP from "../assets/WP.png"
 const About = () => {
   return (
     <>
+    <div className='container'>
+
+    
       <div className='box about-img'>
 
         <img src={ryan} alt="" />
@@ -46,6 +49,7 @@ const About = () => {
             <p>Jag har koll på HTML, CSS och en del Javascript. Jag föredrar att använda React.JS. Jag har även gjort enklare projekt i Wordpress.</p>
           </section>
         </section>
+      </div>
       </div>
     </>
   )
