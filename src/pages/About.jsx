@@ -12,12 +12,14 @@ import WP from "../assets/WP.png"
 const About = () => {
   return (
     <>
-      <section className='about-header'>
+        <div>
         <figure className="image is-128x128">
-          <img src={ryan} alt="" className='is-rounded' />
+          <img src={ryan} alt="" />
+          
         </figure>
-        
-      </section>
+        </div>
+      <container className='image-box'>
+      </container>
       <section className='info-text'><p><h1 className='title is-4'>Vägen hit</h1>
         Jag började min resa inom webbutveckling på gymnasiet 2007-2010. Efter gymnasiet har jag haft jobb i olika branscher. Event försäljning, Ställningsbyggare, Logistik, Vårdgivare & inom kundtjänst.  År 2020-2022 så har jag läst webbutveckling på Medieinstitutet i Göteborg. Nu söker jag nya möjligheter och ser optimistiskt på kommande projekt.</p>
         <br /><hr />

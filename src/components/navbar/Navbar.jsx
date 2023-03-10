@@ -11,13 +11,12 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <h3 className="navbar-header"><img src={logo} alt="" />TechWithRyan</h3>
+            <h3 className="navbar-header"><img src={logo} alt="" /><a href="/">TechWithRyan</a></h3>
 
             <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
                 <Link to="/"><li>Hem</li></Link>
                 <Link to="/services"><li>Tjänster</li></Link>
                 <Link to="/about"><li>Om</li></Link>
-                <Link to="/contact"><li>Kontakt</li></Link>
             </ul>
 
             <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>

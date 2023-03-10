@@ -31,6 +31,11 @@
     flex-direction: column;
 }
 
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
 @media screen and (max-width: 400px) {
     .info-text {
         width: 90vw;

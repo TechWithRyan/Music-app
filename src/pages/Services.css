@@ -1,3 +1,32 @@
-.box-1 {
+.small {
+    text-align: center;
+    height: 30rem;
+    width: 20rem;
+    background-color: rgb(184, 102, 255);
+}
+.medium {
+    text-align: center;
+    height: 30rem;
+    width: 20rem;
+    background-color: rgb(106, 109, 255);
+}
+.large {
+    text-align: center;
+    height: 30rem;
+    width: 20rem;
+    background-color: rgb(89, 253, 111);
+}
+
+.packs {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 2rem;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
     text-align: center;
 }

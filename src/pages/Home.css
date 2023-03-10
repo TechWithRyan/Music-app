@@ -5,6 +5,15 @@ body {
     background-position: center;
 }
 
+.info{
+    text-align: center;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: row;
+}
+
 .home-info {
     display: flex;
     justify-content: center;
@@ -56,11 +65,11 @@ a:hover {
     height: 25rem;
     width: 35vw;
     padding: 1rem;
-    display: flex;
     justify-content: center;
     flex-direction: column;
     font-size: 20px;
     align-items: center;
+    display: flex;
 }
 
 @media screen and (max-width: 768px) {
