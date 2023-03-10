@@ -31,6 +31,14 @@
     flex-direction: column;
 }
 
+.about-img {
+    height: 20rem;
+    width: 20rem;
+    margin: 2rem auto;
+    display: flex;
+    box-shadow: steelblue 1rem 1rem;
+}
+
 .box {
     display: flex;
     flex-direction: row;
