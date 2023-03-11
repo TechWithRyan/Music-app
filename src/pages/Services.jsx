@@ -22,6 +22,7 @@ const Services = () => {
             <li>SEO</li>
             <li>Support och uppdatering 1 månad</li>
             <li>Nystartat Företag</li>
+            <li>Leveranstid: 2 veckor</li>
             <div className='title is-5'>Pris: 3000 kr</div>
           </div>
         </div>
@@ -35,6 +36,7 @@ const Services = () => {
             <li>SEO</li>
             <li>Support och uppdatering 1 månad</li>
             <li>Företag</li>
+            <li>Leveranstid: 2 veckor</li>
             <div className='title is-5'>Pris: 5000 kr</div>
           </div>
         </div>
@@ -49,6 +51,7 @@ const Services = () => {
             <li>SEO</li>
             <li>Support och uppdatering 1 månad</li>
             <li>Större Företag</li>
+            <li>Leveranstid: 3 veckor</li>
             <div className='title is-5'>Pris: 7000 kr</div>
           </div>
         </div>
