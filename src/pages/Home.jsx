@@ -23,9 +23,9 @@ const Home = () => {
         </div>
         <div className="column">
            <div className='box'>
-        <p>Låt mig hjälpa till med er hemsida.
+        <p className='center-text'>Låt mig hjälpa till med er hemsida.
           Jag kan erbjuda enklare lösningar till ett bra marknadspris. Välj en 
-          lösning som passar er under tjänster.
+          lösning som passar er under <a href="/services"> tjänster.</a>
         </p>
       </div>
         </div>
