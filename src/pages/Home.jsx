@@ -40,7 +40,7 @@ const Home = () => {
           <div className="column">
            
               <div className='medium'>
-              <Link to="/Medium"> <h1 className="title is-4">Medium</h1></Link>
+              <Link to="/medium"> <h1 className="title is-4">Medium</h1></Link>
                 <img src={pack2} alt="" className='image' />
                 <h2>React eller Wordpress</h2>
                 <li>10 sidor</li>
@@ -55,7 +55,7 @@ const Home = () => {
 
           <div className="column">
           <div className='large'>
-            <Link to="/Large"> <h1 className="title is-4">Large</h1></Link>
+            <Link to="/large"> <h1 className="title is-4">Large</h1></Link>
               <img src={pack3} alt="" className='image' />
               <h2>React eller Wordpress</h2>
               <li>15 sidor</li>
