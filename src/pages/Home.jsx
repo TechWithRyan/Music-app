@@ -78,16 +78,6 @@ const Home = () => {
 
 
 
-
-      <div className="columns">
-        <div className="column">
-
-          <div className='box'>
-            <img src={img1} alt="" className='laptop-photo' />
-          </div>
-        </div>
-
-      </div>
       <div className="column">
         <div className='box'>
           <p className='center-text'>Låt mig hjälpa till med er hemsida.
