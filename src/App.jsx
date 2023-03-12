@@ -22,9 +22,9 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Services" element={<Services />} />
-            <Route path="/Small" element={<Small />} />
-            <Route path="/Medium" element={<Medium />} />
-            <Route path="/Large" element={<Large />} />
+            <Route path="/small" element={<Small />} />
+            <Route path="/medium" element={<Medium />} />
+            <Route path="/large" element={<Large />} />
           </Routes>
         </Router>
         <CookieBanner disableStyle={true} />

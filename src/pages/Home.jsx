@@ -5,6 +5,7 @@ import pack1 from "../assets/pack1.jpg";
 import pack2 from "../assets/pack2.jpg";
 import pack3 from "../assets/pack3.jpg";
 import Banner from "../assets/Banner.jpg";
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const Home = () => {
         <div className="columns">
           <div className="column">
             <div className='small'>
-              <a href="/Small"> <h1 className="title is-4">Small</h1></a>
+              <Link to="/small"> <h1 className="title is-4">Small</h1></Link>
                 <img src={pack1} alt="" className='image' />
 
                 <h2>React eller Wordpress</h2>
