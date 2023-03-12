@@ -10,19 +10,19 @@ import pack3 from "../assets/pack3.jpg";
 const Small = () => {
     return (
         <>
-           <section class="hero">
-  <div class="hero-body">
-    <p class="subtitle">
-      Enklare hemsida
-    </p>
-  </div>
-</section>
+            <section className="hero">
+                <div className="hero-body">
+                    <p className="subtitle">
+                        Enklare hemsida
+                    </p>
+                </div>
+            </section>
 
 
             <div className="item-centering">
                 <div className="columns">
                     <div className="column">
-                        <a href="/small">
+                        <a href="/Small">
                             <div className='small'>
                                 <h1 className="title is-4">Small</h1>
                                 <img src={pack1} alt="" className='image' />
@@ -34,12 +34,13 @@ const Small = () => {
                                 <li>Nystartat Företag</li>
                                 <li>Leveranstid: 2 veckor</li>
                                 <div className='title is-5'>Pris: 3000 kr</div>
-                            </div></a>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
 
-          
+
 
         </>
     )

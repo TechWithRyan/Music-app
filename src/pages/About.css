@@ -8,9 +8,20 @@
     margin: 0 auto;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 2px red;
+}
+
+.box img {
+    display: flex;
+    
+}
+
 .css, .html5, .node, .js, .react, .wp {
     height: 10%;
-    width: 10%;
+    width: 7%;
     margin: 0 auto;
 }
 
@@ -62,6 +73,11 @@
     .box-icons {
         height: 20%;
         width: 30%;
+    }
+    .css, .html5, .node, .js, .react, .wp {
+        height: 10%;
+        width: 10%;
+        margin: 0 auto;
     }
 
 }

@@ -13,19 +13,20 @@ const About = () => {
   return (
     <>
       <div className='container'>
-        <div className='box, about-img'>
-          <img src={ryan} alt="" />
-        </div>
-        <section className='info-text'>
-          
+        <div className="box">
+
+          <div className='box, about-img'>
+            <img src={ryan} alt="Photo of myself" />
+          </div>
+          <section className='info-text'>
             <h1 className='title is-4'>
               Vägen hit
             </h1>
             <p>
-            Jag började min resa inom webbutveckling på gymnasiet 2007-2010. Efter gymnasiet har jag haft jobb i olika branscher. Event försäljning, Ställningsbyggare, Logistik, Vårdgivare & inom kundtjänst.  År 2020-2022 så har jag läst webbutveckling på Medieinstitutet i Göteborg. Nu söker jag nya möjligheter och ser optimistiskt på kommande projekt.
-          </p>
-
-        </section>
+              Jag började min resa inom webbutveckling på gymnasiet 2007-2010. Efter gymnasiet har jag haft jobb i olika branscher. Event försäljning, Ställningsbyggare, Logistik, Vårdgivare & inom kundtjänst.  År 2020-2022 så har jag läst webbutveckling på Medieinstitutet i Göteborg. Nu söker jag nya möjligheter och ser optimistiskt på kommande projekt.
+            </p>
+          </section>
+        </div>
         <div className="about-box">
           <section className='info-text'>
             <h1 className='title is-4'>

@@ -11,7 +11,8 @@ const Footer = () => {
       <footer className="footer">
         <div className="content has-text-centered">
           <p className='rights-info'>
-            <strong>Alla rättigheter förbehållna</strong>, <a href="https://github.com/TechWithRyan">Ryan-Phillips Iserhills Cornelio</a>.
+            <strong>Alla rättigheter förbehållna</strong>
+            <a href="https://github.com/TechWithRyan">@Ryan-Phillips Iserhills Cornelio</a>
           </p>
           <br /><hr />
           <div className="socials">

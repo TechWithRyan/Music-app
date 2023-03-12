@@ -78,20 +78,14 @@ const Home = () => {
 
       <div className="column">
         <div className='box'>
-          <p className='center-text'>Låt mig hjälpa till med er hemsida.
+          <p>Låt mig hjälpa er med hemsidan.
             Jag kan erbjuda enklare lösningar till ett bra marknadspris. Välj en
-            lösning som passar er under <a href="/services"> tjänster.</a>
+            plan som passar er under <a href="/services"> tjänster.</a> Använd sedan kontakt formuläret <a href=""> här</a> för att kontakta mig.
           </p>
         </div>
       </div>
 
-      <section>
-        <div className='info'>
-          <h1 className='title is-4'>Modern teknik</h1>
-
-          <p>Jag använder mig huvudsakligen av React.JS för att göra hemsidor. Vilket är bland de mest populära ramverken.
-            Vill ni hellre ha en sida i wordpress går det att ordna det med.</p></div>
-      </section>
+      
 
 
     </>

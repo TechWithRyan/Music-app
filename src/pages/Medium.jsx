@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
-import img1 from "../assets/img1.jpg";
 import "./Home.css"
 import "./Services.css"
 import pack1 from "../assets/pack1.jpg";
