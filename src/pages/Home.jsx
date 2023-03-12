@@ -6,13 +6,16 @@ import pack2 from "../assets/pack2.jpg";
 import pack3 from "../assets/pack3.jpg";
 import Banner from "../assets/Banner.jpg";
 import { Link } from 'react-router-dom';
+import ReactPlayer from 'react-player'
+import bannervideo from "../assets/bannervideo.mp4"
+
 const Home = () => {
   return (
     <>
       <section className='hero-is-dark is-medium'>
         <div className="hero-body" >
           <img src={Banner} />
-         
+
         </div>
       </section>
 
@@ -23,7 +26,7 @@ const Home = () => {
         <div className="columns">
           <div className="column">
             <div className='small'>
-              <Link to="/small"> <h1 className="title is-4">Small</h1></Link>
+              <Link to="/small"> <h1 className="title is-4">Small</h1>
                 <img src={pack1} alt="" className='image' />
 
                 <h2>React eller Wordpress</h2>
@@ -34,13 +37,14 @@ const Home = () => {
                 <li>Nystartat Företag</li>
                 <li>Leveranstid: 2 veckor</li>
                 <div className='title is-5'>Pris: 3000 kr</div>
-              </div>
+              </Link>
+            </div>
           </div>
 
           <div className="column">
-           
-              <div className='medium'>
-              <Link to="/medium"> <h1 className="title is-4">Medium</h1></Link>
+
+            <div className='medium'>
+              <Link to="/medium"> <h1 className="title is-4">Medium</h1>
                 <img src={pack2} alt="" className='image' />
                 <h2>React eller Wordpress</h2>
                 <li>10 sidor</li>
@@ -50,28 +54,27 @@ const Home = () => {
                 <li>Företag</li>
                 <li>Leveranstid: 2 veckor</li>
                 <div className='title is-5'>Pris: 5000 kr</div>
-              </div>
+              </Link>
+            </div>
           </div>
 
           <div className="column">
-          <div className='large'>
-            <Link to="/large"> <h1 className="title is-4">Large</h1></Link>
-              <img src={pack3} alt="" className='image' />
-              <h2>React eller Wordpress</h2>
-              <li>15 sidor</li>
-              <li>Anpassad för mobil</li>
-              <li>SEO</li>
-              <li>Support och uppdatering 1 månad</li>
-              <li>Större Företag</li>
-              <li>Leveranstid: 3 veckor</li>
-              <div className='title is-5'>Pris: 7000 kr</div>
+            <div className='large'>
+              <Link to="/large"> <h1 className="title is-4">Large</h1>
+                <img src={pack3} alt="" className='image' />
+                <h2>React eller Wordpress</h2>
+                <li>15 sidor</li>
+                <li>Anpassad för mobil</li>
+                <li>SEO</li>
+                <li>Support och uppdatering 1 månad</li>
+                <li>Större Företag</li>
+                <li>Leveranstid: 3 veckor</li>
+                <div className='title is-5'>Pris: 7000 kr</div>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-
-
-
 
 
 
@@ -85,7 +88,18 @@ const Home = () => {
         </div>
       </div>
 
-      
+      <div className='player-wrapper'>
+        <ReactPlayer
+          className='react-player'
+          url='https://www.youtube.com/watch?v=zyTdmISgZgg'
+          width='100%'
+          height='100%'
+          controls='true'
+        />
+      </div>
+  
+
+
 
 
     </>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -12,7 +12,7 @@ import CookieBanner from 'react-cookie-banner';
 import "./App.css";
 
 const App = () => {
-
+ 
   return (
     <>
       <div className="container">

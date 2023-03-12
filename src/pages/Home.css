@@ -9,8 +9,6 @@ body {
     text-align: center;
 }
 
-
-
 .home-info {
     display: flex;
     justify-content: center;
@@ -45,6 +43,10 @@ a:hover {
     color: rgb(0, 0, 0);
     padding: 0rem;
     justify-content: center;
+}
+
+.player-wrapper{
+    height: 60vh;
 }
 
 @media screen and (max-width: 768px) {
