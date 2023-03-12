@@ -21,9 +21,8 @@ const Home = () => {
         </div>
         <div className="columns">
           <div className="column">
-            <a href="/Small">
-              <div className='small'>
-                <h1 className="title is-4">Small</h1>
+            <div className='small'>
+              <a href="/Small"> <h1 className="title is-4">Small</h1></a>
                 <img src={pack1} alt="" className='image' />
 
                 <h2>React eller Wordpress</h2>
@@ -34,7 +33,7 @@ const Home = () => {
                 <li>Nystartat Företag</li>
                 <li>Leveranstid: 2 veckor</li>
                 <div className='title is-5'>Pris: 3000 kr</div>
-              </div></a>
+              </div>
           </div>
 
           <div className="column">
