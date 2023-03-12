@@ -6,7 +6,7 @@ import "./Services.css"
 import pack1 from "../assets/pack1.jpg";
 import pack2 from "../assets/pack2.jpg";
 import pack3 from "../assets/pack3.jpg";
-import banner from "../assets/banner.png";
+import Banner from "../assets/Banner.jpg";
 const Home = () => {
   return (
     <>
