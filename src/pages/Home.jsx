@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <section className='hero-is-dark is-medium'>
         <div className="hero-body" >
-          <img src="/src/assets/Banner.jpg" alt="" />
+          <img src={Banner} />
          
         </div>
       </section>
