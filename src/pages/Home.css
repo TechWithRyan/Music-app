@@ -49,41 +49,12 @@ a:hover {
     justify-content: center;
 }
 
-.left {
-    height: 45rem;
-    width: 45vw;
-    display: flex;
-    padding: 2rem;
-}
-
-
-
-.right {
-    height: 25rem;
-    width: 35vw;
-    padding: 1rem;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 20px;
-    align-items: center;
-    display: flex;
-}
-
 @media screen and (max-width: 768px) {
 
     .image-text {
         display: flex;
         flex-direction: column; 
         align-items: center;
-    }
-
-    .left img {
-        
-    }
-
-    .right {
-        height: auto;
-        width: auto;
     }
 
     .home {

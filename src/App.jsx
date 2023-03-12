@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
+import Small from "./pages/Small";
+import Medium from "./pages/Medium";
 import Contact from "./pages/Contact";
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
@@ -20,6 +22,8 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/Small" element={<Small />} />
+            <Route path="/Medium" element={<Medium />} />
           </Routes>
         </Router>
         <CookieBanner disableStyle={true} />
