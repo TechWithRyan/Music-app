@@ -38,9 +38,9 @@ const Home = () => {
           </div>
 
           <div className="column">
-            <a href="/Medium">
+           
               <div className='medium'>
-                <h1 className='title is-4'>Medium</h1>
+              <Link to="/Medium"> <h1 className="title is-4">Medium</h1></Link>
                 <img src={pack2} alt="" className='image' />
                 <h2>React eller Wordpress</h2>
                 <li>10 sidor</li>
@@ -50,12 +50,12 @@ const Home = () => {
                 <li>Företag</li>
                 <li>Leveranstid: 2 veckor</li>
                 <div className='title is-5'>Pris: 5000 kr</div>
-              </div></a>
+              </div>
           </div>
 
           <div className="column">
-            <a href="/Large"><div className='large'>
-              <h1 className='title is-4'>Large</h1>
+          <div className='large'>
+            <Link to="/Large"> <h1 className="title is-4">Large</h1></Link>
               <img src={pack3} alt="" className='image' />
               <h2>React eller Wordpress</h2>
               <li>15 sidor</li>
@@ -65,7 +65,7 @@ const Home = () => {
               <li>Större Företag</li>
               <li>Leveranstid: 3 veckor</li>
               <div className='title is-5'>Pris: 7000 kr</div>
-            </div></a>
+            </div>
           </div>
         </div>
       </div>
