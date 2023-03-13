@@ -26,7 +26,7 @@ const Home = () => {
         <h1 className="title-is-4">Ny hemsida? Välj det som passar er bäst</h1>
           <p>Låt mig hjälpa er med hemsidan.
             Jag kan erbjuda enklare lösningar till ett bra marknadspris. Välj en
-            plan som passar er under <Link to="/services"> tjänster.</Link> Använd sedan kontakt formuläret <Link to="/contact"> här</Link> för att kontakta mig.
+            plan som passar er här nedanför. Använd sedan kontakt formuläret <Link to="/contact"> här</Link> för att kontakta mig.
           </p>
           {/*      <img src={section-image} alt="" /> */}
         
