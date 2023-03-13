@@ -29,8 +29,8 @@ const About = () => {
 
           </div>
       
-        <div className="about-box">
-          <section className='info-text'>
+        <div className="box">
+          <div className='info-text'>
             <h1 className='title is-4'>
               Styrkor
             </h1>
@@ -50,11 +50,11 @@ const About = () => {
               <img src={WP} alt="" className='wp' />
             </div>
 
-            <section className='skills-info'>
+            <div>
               <h1 className='title is-4'>Info</h1>
               <p>Jag har koll på HTML, CSS och en del Javascript. Jag föredrar att använda React.JS. Jag har även gjort enklare projekt i Wordpress.</p>
-            </section>
-          </section>
+            </div>
+          </div>
 
           <div className='player-wrapper'>
             <ReactPlayer
