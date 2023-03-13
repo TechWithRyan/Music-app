@@ -2,20 +2,19 @@ import React, { Component } from 'react'
 import "./Home.css"
 import "./Services.css"
 import pack1 from "../assets/pack1.jpg";
+/* import section-image from "../assets/section-image.jpg"; */
 import pack2 from "../assets/pack2.jpg";
 import pack3 from "../assets/pack3.jpg";
 import Banner from "../assets/Banner.jpg";
 import { Link } from 'react-router-dom';
-import ReactPlayer from 'react-player'
-import bannervideo from "../assets/bannervideo.mp4"
+
 
 const Home = () => {
   return (
     <>
-      <section className='hero-is-dark is-medium'>
-        <div className="hero-body" >
+      <section className='hero'>
+        <div className="hero-body .container .is-max-widescreen" >
           <img src={Banner} />
-
         </div>
       </section>
 
@@ -79,29 +78,15 @@ const Home = () => {
 
 
 
-      <div className="column">
-        <div className='box'>
+      <div className="box">
+        
           <p>Låt mig hjälpa er med hemsidan.
             Jag kan erbjuda enklare lösningar till ett bra marknadspris. Välj en
             plan som passar er under <a href="/services"> tjänster.</a> Använd sedan kontakt formuläret <a href=""> här</a> för att kontakta mig.
           </p>
-        </div>
+          {/*      <img src={section-image} alt="" /> */}
+        
       </div>
-
-      <div className='player-wrapper'>
-        <ReactPlayer
-          className='react-player'
-          url='https://www.youtube.com/watch?v=zyTdmISgZgg'
-          width='100%'
-          height='100%'
-          controls='true'
-        />
-      </div>
-  
-
-
-
-
     </>
   )
 }

@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Small from "./pages/Small";
 import Medium from "./pages/Medium";
+import Contact from "./components/modal/Contact";
 import Large from "./pages/Large";
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
@@ -15,16 +16,17 @@ const App = () => {
  
   return (
     <>
-      <div className="container">
+      <div className=".container .is-max-widescreen">
         <Router>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
-            <Route path="/Services" element={<Services />} />
+            <Route path="/services" element={<Services />} />
             <Route path="/small" element={<Small />} />
             <Route path="/medium" element={<Medium />} />
             <Route path="/large" element={<Large />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
         <CookieBanner disableStyle={true} />
