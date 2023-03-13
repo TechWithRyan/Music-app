@@ -71,7 +71,7 @@
     }
     .box-icons {
         height: 20%;
-        width: 30%;
+        width: 100%;
     }
     .css, .html5, .node, .js, .react, .wp {
         height: 10%;
@@ -79,8 +79,8 @@
         margin: 0 auto;
     }
     .player-wrapper {
-        height: 20vh;
-        width: 30vw;
+        height: 30vh;
+        width: 100vw;
     }
 
 }
