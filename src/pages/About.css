@@ -16,7 +16,7 @@
 
 .box img {
     display: flex;
-    
+    border-radius: 50%;
 }
 
 .css, .html5, .node, .js, .react, .wp {
@@ -46,11 +46,10 @@
 }
 
 .about-img {
-    height: 70%;
-    width: 30%;
+    width: 20%;
     margin: 2rem auto;
     display: flex;
-    box-shadow: steelblue 1rem 1rem;
+    border-radius: 50%;
 }
 
 .box-icons {
@@ -60,10 +59,10 @@
 }
 
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 600px) {
     .about-img {
         height: 100%;
-        width: 100%;
+        width: 50vw;
     }
 
     .container {
@@ -78,6 +77,10 @@
         height: 10%;
         width: 10%;
         margin: 0 auto;
+    }
+    .player-wrapper {
+        height: 20vh;
+        width: 30vw;
     }
 
 }

@@ -4,6 +4,7 @@ import "./Services.css"
 import pack1 from "../assets/pack1.jpg";
 import pack2 from "../assets/pack2.jpg";
 import pack3 from "../assets/pack3.jpg";
+import { Link } from 'react-router-dom';
 
 const Small = () => {
     return (
@@ -13,6 +14,7 @@ const Small = () => {
                     <p class="subtitle">
                         Medium hemsida
                     </p>
+                    <p>Beställ <Link to="/contact">här</Link></p>
                 </div>
             </section>
 
