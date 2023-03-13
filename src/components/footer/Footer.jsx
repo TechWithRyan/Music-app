@@ -14,7 +14,7 @@ const Footer = () => {
             <strong>Alla rättigheter förbehållna - </strong>
             <a href="https://github.com/TechWithRyan"> Ryan-Phillips Iserhills Cornelio</a>
           </p>
-          <br /><hr />
+          <br />
           <div className="socials">
             <a href="https://www.facebook.com/ryanphillips.cornelio/photos"><ImFacebook2 /></a>
             <a href="https://www.instagram.com/techwithryan/"><FiInstagram /></a>
