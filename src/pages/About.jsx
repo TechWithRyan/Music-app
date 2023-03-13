@@ -50,10 +50,10 @@ const About = () => {
               <img src={WP} alt="" className='wp' />
             </div>
 
-            <div>
+    
               <h1 className='title is-4'>Info</h1>
               <p>Jag har koll på HTML, CSS och en del Javascript. Jag föredrar att använda React.JS. Jag har även gjort enklare projekt i Wordpress.</p>
-            </div>
+    
           </div>
 
           <div className='player-wrapper'>
