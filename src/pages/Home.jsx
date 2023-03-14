@@ -1,15 +1,19 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import "./Home.css"
 import pack1 from "../assets/pack1.jpg";
-/* import section-image from "../assets/section-image.jpg"; */
 import pack2 from "../assets/pack2.jpg";
 import pack3 from "../assets/pack3.jpg";
 import Banner from "../assets/Banner.jpg";
 import { Link } from 'react-router-dom';
+import Contact from '../components/modal/Contact';
 
 
 const Home = () => {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
+
+
     <>
       <section className='hero'>
         <div className="hero-body .container .is-max-widescreen" >
@@ -25,13 +29,13 @@ const Home = () => {
             <h1 className="title-is-4">Ny hemsida? Välj det som passar er bäst</h1>
             <p>Låt mig hjälpa er med hemsidan.
               Jag kan erbjuda enklare lösningar till ett bra marknadspris. Välj en
-              plan som passar er här nedanför. 
+              plan som passar er här nedanför.
             </p>
             <br />
-            <button className='button is-primary'>Kontakta mig vid frågor eller funderingar</button>
-            {/*      <img src={section-image} alt="" /> */}
+            <Link className="button is-primary" onClick={() => setOpenModal(true)}>Kontakta mig vid frågor eller funderingar</Link>
 
           </div>
+           
           <div className="columns">
             <div className="column">
               <div className='small'>
@@ -82,9 +86,12 @@ const Home = () => {
                 </Link>
               </div>
             </div>
+            <Contact open={openModal} onClose={() => setOpenModal(false)} />
           </div>
         </div>
       </div>
+          
+      
     </>
   )
 }

@@ -2,14 +2,16 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
 
-const Contact = () => {
-  const [message, showMessage] = useState(false);
-  const form = useRef();
-  const Msg = () => {
+const Msg = () => {
     return <div>
-      Meddelande skickat!
-    </div>
-  }
+    Meddelande skickat!
+  </div>
+}
+
+const Contact = ({ open, onClose }) => {
+  if (!open) return null;
+ const form = useRef();
+ const [message, showMessage] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -25,30 +27,27 @@ const Contact = () => {
   };
 
   return (
-    <div className="box">
-      <div className="box-container">
-      <div className="contact-box">
-        <h1 className='title is-5'>Kontakt</h1>
-
-      </div>
-      <form ref={form} onSubmit={sendEmail} className="name-box">
-        <label>Namn</label>
-        <input type="text" name="name" className="input" />
-        <label>E-post</label>
-        <input type="email" name="email" className="input" />
-        <label>Företag</label>
-        <input type="text" name="foretag" className="input" />
-        <label>Meddelande</label>
-        <textarea name="message" className="textarea" />
-        <br />
-        <input type="submit" value="Skicka" className="button is-primary" />
-        <div>{message ? <Msg /> : null}</div>
-      </form>
+    <div className="modalContainer">
+      
+          <form ref={form} onSubmit={sendEmail} className="box">
+            <label>Namn</label>
+            <input type="text" name="name" className="input" />
+            <label>E-post</label>
+            <input type="email" name="email" className="input" />
+            <label>Företag</label>
+            <input type="text" name="foretag" className="input" />
+            <label>Meddelande</label>
+            <textarea name="message" className="textarea" />
+            <br />
+            <input type="submit" value="Skicka" className="button is-primary" />
+            <div>{message ? <Msg /> : null}</div>
+            <div className="openModal">
+              <p className='onClose' onClick={onClose}>Stäng</p>
+            </div>
+          </form>
       
       </div>
-    </div>
-
-
+   
   );
 };
 
