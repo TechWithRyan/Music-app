@@ -14,15 +14,18 @@
     border: 2px red;
 }
 
-.box img {
-    display: flex;
-    border-radius: 50%;
-}
 
-.css, .html5, .node, .js, .react, .wp {
+
+.css, .html5, .node, .react, .wp {
     height: 10%;
     width: 7%;
     margin: 0 auto;
+    border-radius: 50%;
+}
+
+.js {
+    height: 10%;
+    width: 6%;
 }
 
 .about-header{
@@ -56,6 +59,7 @@
   display: flex;   
   height: 100%;
   width: 100%;
+  border-radius: 50%;
 }
 
 

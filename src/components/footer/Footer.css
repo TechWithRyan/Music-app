@@ -10,7 +10,7 @@
 
 .socials {
     font-size: 40px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
 }
 

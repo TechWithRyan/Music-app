@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import img1 from "../assets/img1.jpg";
 import "./Home.css"
-import "./Services.css"
 import pack1 from "../assets/pack1.jpg";
 import pack2 from "../assets/pack2.jpg";
 import pack3 from "../assets/pack3.jpg";

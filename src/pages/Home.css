@@ -14,6 +14,13 @@ body {
     justify-content: center;
 }
 
+.item-centering{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .hero {
     display: flex;
     align-items: center;
@@ -49,6 +56,67 @@ a:hover {
     height: 60vh;
     align-items: center;
     display: flex;
+}
+
+.small {
+    text-align: center;
+    height: 35rem;
+    width: 20rem;
+    margin: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.medium {
+    text-align: center;
+    height: 35rem;
+    width: 20rem;
+    margin: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+
+}
+.large {
+    text-align: center;
+    height: 35rem;
+    width: 20rem;
+    margin: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.packs {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 2rem;
+    height: 100vh;
+
+}
+
+.title-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .small {
+        contain: content;        
+    }
 }
 
 @media screen and (max-width: 768px) {

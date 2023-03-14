@@ -15,10 +15,10 @@ const About = () => {
     <>
       <div className='container'>
         <div className="box">
-
-          <div className='box, about-img'>
-            <img src={ryan} alt="Photo of myself" />
+          <div>
+            <img src={ryan} alt="Photo of myself" className='about-img'/>
           </div>
+          
           <div className='info-text'>
             <h1 className='title is-4'>
               Vägen hit
@@ -29,7 +29,7 @@ const About = () => {
 
           </div>
       
-        <div className="box">
+        
           <div className='info-text'>
             <h1 className='title is-4'>
               Styrkor
@@ -67,7 +67,7 @@ const About = () => {
             />
           </div>
         </div>
-      </div>
+
       </div>
     </>
   )
