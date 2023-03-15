@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
-import { MdClose } from 'react-icons/Md';
+import { MdClose } from 'react-icons/md';
 
 const Msg = () => {
     return <div>
