@@ -26,6 +26,8 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100%;
+    padding: 0.5rem;
 }
 
 .header {
@@ -48,7 +50,6 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly;
     color: rgb(0, 0, 0);
-    padding: 0rem;
     justify-content: center;
 }
 
@@ -90,14 +91,6 @@ a:hover {
     border-radius: 1rem;
 }
 
-.packs {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    padding: 2rem;
-    height: 100vh;
-
-}
 
 .title-header {
     display: flex;

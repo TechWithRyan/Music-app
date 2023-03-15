@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
+import { VscClose } from 'react-icons/Vsc';
 
 const Msg = () => {
     return <div>
@@ -42,7 +43,7 @@ const Contact = ({ open, onClose }) => {
             <input type="submit" value="Skicka" className="button is-primary" />
             <div>{message ? <Msg /> : null}</div>
             <div className="openModal">
-              <p className='onClose' onClick={onClose}>Stäng</p>
+              <p className='onClose' onClick={onClose}><VscClose /></p>
             </div>
           </form>
       

@@ -30,7 +30,6 @@
 
 .about-header{
     display: flex;
-    padding: 3rem;
     font-size: 20px;
     flex-direction: column;
     width: 60vw;

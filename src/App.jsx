@@ -5,30 +5,29 @@ import About from "./pages/About";
 import Small from "./pages/Small";
 import Medium from "./pages/Medium";
 import Contact from "./components/modal/Contact";
+import Email from "./pages/Email";
 import Large from "./pages/Large";
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import CookieBanner from 'react-cookie-banner';
 import "./App.css";
-import Cart from './components/cart/Cart';
 
 const App = () => {
- 
+
   return (
     <>
-      <div className=".container .is-max-widescreen">
+      <div>
         <Router>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/About" element={<About />} />            <Route path="/small" element={<Small />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/small" element={<Small />} />
             <Route path="/medium" element={<Medium />} />
             <Route path="/large" element={<Large />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/email" element={<Email />} />
           </Routes>
- 
         </Router>
-        <CookieBanner disableStyle={true} />
         <Footer />
       </div>
     </>

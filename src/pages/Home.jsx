@@ -15,21 +15,21 @@ const Home = () => {
 
 
     <>
-      <section className='hero'>
-        <div className="hero-body .container .is-max-widescreen" >
-          <img src={Banner} />
+      <div className=''>
+        <div className="hero .container">
+          <img src={Banner}/>
         </div>
-      </section>
+      </div>
       <div className="box">
         <div className="item-centering">
           <div className='title is-4'>
 
           </div>
           <div className="item-centering">
-            <h1 className="title-is-4">Ny hemsida? Välj det som passar er bäst</h1>
+            <h1 className="title-is-4">Ny hemsida? Välj det som passar er bäst.</h1>
             <p>Låt mig hjälpa er med hemsidan.
               Jag kan erbjuda enklare lösningar till ett bra marknadspris. Välj en
-              plan som passar er här nedanför.
+              plan som passar er.
             </p>
             <br />
             <Link className="button is-primary" onClick={() => setOpenModal(true)}>Kontakta mig vid frågor eller funderingar</Link>
