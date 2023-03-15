@@ -14,7 +14,7 @@ const Small = () => {
                     <p className="subtitle">
                         Enklare hemsida
                     </p>
-                    <p>Beställ <Link to="/contact">här</Link></p>
+                    <p>Beställ <Link to="/email">här</Link></p>
                 </div>
             </section>
 
