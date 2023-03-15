@@ -20,7 +20,7 @@ const Small = () => {
             <div className="item-centering">
             <div className="columns">
                 <div className="column">
-                    <a href="/Medium">
+                    <Link to="/Medium">
                         <div className='medium'>
                             <h1 className='title is-4'>Medium</h1>
                             <img src={pack2} alt="" className='image' />
@@ -33,7 +33,7 @@ const Small = () => {
                             <li>Leveranstid: 2 veckor</li>
                             <div className='title is-5'>Pris: 5000 kr</div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
             </div>
