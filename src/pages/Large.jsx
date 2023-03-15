@@ -33,7 +33,7 @@ const Small = () => {
               <li>Större Företag</li>
               <li>Leveranstid: 3 veckor</li>
               <div className='title is-5'>Pris: 7000 kr</div>
-            </div></Lin=>
+            </div></Link>
           </div>
                 </div>
             </div>
