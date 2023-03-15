@@ -26,7 +26,7 @@ const Home = () => {
 
           </div>
           <div className="item-centering">
-            <h1 className="title-is-4">Ny hemsida? Välj det som passar er bäst.</h1>
+            <h1 className="title-is-4">Hej! behöver ni en ny hemsida? Välj det som passar er bäst.</h1>
             <p>Låt mig hjälpa er med hemsidan.
               Jag kan erbjuda enklare lösningar till ett bra marknadspris. Välj en
               plan som passar er.
