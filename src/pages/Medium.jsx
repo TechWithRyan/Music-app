@@ -13,7 +13,7 @@ const Small = () => {
                     <p class="subtitle">
                         Medium hemsida
                     </p>
-                    <p>Beställ <Link to="/email">här</Link></p>
+                    <Link to="/email" className="button is-primary" >Beställ här</Link>
                 </div>
             </section>
 
