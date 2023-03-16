@@ -1,11 +1,12 @@
 import React from 'react'
 import "./About.css"
-import ryan from "../assets/ryan.jpg";
 import "./Skills.css";
+import "./Home.css";
 import css3 from "../assets/css3.png"
 import html5 from "../assets/html5.png"
 import JS from "../assets/JS.png"
 import node from "../assets/node.png"
+import aboutBanner from "../assets/aboutBanner.png"
 import react from "../assets/react.jpg"
 import WP from "../assets/WP.png"
 import ReactPlayer from 'react-player'
@@ -13,12 +14,12 @@ import ReactPlayer from 'react-player'
 const About = () => {
   return (
     <>
-      <div className='container'>
-        <div className="box">
-          <div>
-            <img src={ryan} alt="Photo of myself" className='about-img'/>
+      <div className=''>
+          <div className="hero .container">
+            <img src={aboutBanner} className='img' />
           </div>
-          
+        <div className="box">
+
           <div className='info-text'>
             <h1 className='title is-4'>
               Vägen hit
@@ -28,8 +29,8 @@ const About = () => {
             </p>
 
           </div>
-      
-        
+
+
           <div className='info-text'>
             <h1 className='title is-4'>
               Styrkor
@@ -50,10 +51,10 @@ const About = () => {
               <img src={WP} alt="" className='wp' />
             </div>
 
-    
-              <h1 className='title is-4'>Info</h1>
-              <p>Jag har koll på HTML, CSS och en del Javascript. Jag föredrar att använda React.JS. Jag har även gjort enklare projekt i Wordpress.</p>
-    
+
+            <h1 className='title is-4'>Info</h1>
+            <p>Jag har koll på HTML, CSS och en del Javascript. Jag föredrar att använda React.JS. Jag har även gjort enklare projekt i Wordpress.</p>
+
           </div>
 
           <div className='player-wrapper'>
