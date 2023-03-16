@@ -15,9 +15,9 @@ const About = () => {
   return (
     <>
       <div className=''>
-          <div className="hero .container">
-            <img src={aboutBanner} className='img' />
-          </div>
+        <div className="hero .container">
+          <img src={aboutBanner} className='img' />
+        </div>
         <div className="box">
 
           <div className='info-text'>
@@ -29,8 +29,6 @@ const About = () => {
             </p>
 
           </div>
-
-
           <div className='info-text'>
             <h1 className='title is-4'>
               Styrkor
@@ -39,19 +37,6 @@ const About = () => {
               Flytande i Svenska & Engelska. God social kompetens & gillar att socialisera. Jag är seriös med mitt fokus men har såklart även ett gott humör.
             </p>
             <br />
-
-            <h1 className='title is-4'>Stack</h1>
-
-            <div className='box-icons'>
-              <img src={css3} alt="" className='css' />
-              <img src={html5} alt="" className='html5' />
-              <img src={JS} alt="" className='js' />
-              <img src={node} alt="" className='node' />
-              <img src={react} alt="" className='react' />
-              <img src={WP} alt="" className='wp' />
-            </div>
-
-
             <h1 className='title is-4'>Info</h1>
             <p>Jag har koll på HTML, CSS och en del Javascript. Jag föredrar att använda React.JS. Jag har även gjort enklare projekt i Wordpress.</p>
 

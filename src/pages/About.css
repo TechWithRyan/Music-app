@@ -47,11 +47,10 @@
     flex-direction: column;
 }
 
-.about-img {
-    width: 20%;
+.img {
+    width: 100%;
     margin: 2rem auto;
     display: flex;
-    border-radius: 50%;
 }
 
 
