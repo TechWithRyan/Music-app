@@ -10,10 +10,6 @@ const Footer = () => {
     <div className='box'>
       <footer className="footer">
         <div className="content has-text-centered">
-          <p className='rights-info'>
-            <strong>Alla rättigheter förbehållna - </strong>
-            <a href="https://github.com/TechWithRyan"> Ryan-Phillips Iserhills Cornelio</a>
-          </p>
           <br />
           <div className="socials">
             <a href="https://www.facebook.com/ryanphillips.cornelio/photos"><ImFacebook2 /></a>
@@ -21,6 +17,13 @@ const Footer = () => {
             <a href="https://www.youtube.com/channel/UCOg3PF76vT3K6DMGcU7-XzA"><FaYoutube /></a>
             <a href="https://www.linkedin.com/in/ryan-phillips-iserhills-cornelio/"><FaLinkedin /></a>
           </div>
+          <p className='rights-info'>
+            <strong>Alla rättigheter förbehållna - </strong>
+            <a href="https://github.com/TechWithRyan"> Ryan-Phillips Iserhills Cornelio</a>
+          </p>
+          <p>E-post: ryan.cornelio@gmail.com</p>
+          <p>Adress: Hällebergsgatan 22. 442 54 YTTERBY</p>
+          <p>Telefon: 0760581267</p>
         </div>
       </footer>
     </div>

@@ -32,16 +32,17 @@ const Email = () => {
     <div className='form'>
       <form ref={form} onSubmit={sendEmail} className="box">
         <label>Namn</label>
-        <input type="text" name="name" className="input" />
+        <input type="text" name="name" className="input" required/>
         <label>E-post</label>
-        <input type="email" name="email" className="input" />
+        <input type="email" name="email" className="input" required/>
         <label>Företag</label>
-        <input type="text" name="foretag" className="input" />
+        <input type="text" name="foretag" className="input" required/>
         <label>Meddelande</label>
-        <textarea name="message" className="textarea" />
+        <textarea name="message" className="textarea" required/>
         <br />
         <input type="submit" value="Skicka" className="button is-primary" />
         <div>{message ? <Msg /> : null}</div>
+        <p>ryan.cornelio@gmail.com</p>
       </form>
     </div>
     </>

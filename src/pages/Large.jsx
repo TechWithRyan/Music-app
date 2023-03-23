@@ -28,7 +28,6 @@ const Small = () => {
               <h2>React eller Wordpress</h2>
               <li>15 sidor</li>
               <li>Anpassad för mobil</li>
-              <li>SEO</li>
               <li>Support och uppdatering 1 månad</li>
               <li>Större Företag</li>
               <li>Leveranstid: 3 veckor</li>
